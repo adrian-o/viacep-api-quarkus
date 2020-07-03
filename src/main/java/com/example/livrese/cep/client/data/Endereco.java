@@ -1,4 +1,4 @@
-package com.example.livrese.cep.client;
+package com.example.livrese.cep.client.data;
 
 public class Endereco {
     public String cep;

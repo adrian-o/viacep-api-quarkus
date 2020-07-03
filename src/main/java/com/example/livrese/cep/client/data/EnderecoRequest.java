@@ -1,4 +1,6 @@
-package com.example.livrese.cep.client;
+package com.example.livrese.cep.client.data;
+
+import java.util.Date;
 
 import io.quarkus.mongodb.panache.MongoEntity;
 import io.quarkus.mongodb.panache.PanacheMongoEntity;
@@ -7,4 +9,6 @@ import io.quarkus.mongodb.panache.PanacheMongoEntity;
 public class EnderecoRequest extends PanacheMongoEntity {
     public String nome;
     public String cep;
+    public Date data;
+    public Integer result;
 }

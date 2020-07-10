@@ -9,6 +9,4 @@ import io.quarkus.mongodb.panache.PanacheMongoEntity;
 public class EnderecoRequest extends PanacheMongoEntity {
     public String nome;
     public String cep;
-    public Date data;
-    public Integer result;
 }
